@@ -1,0 +1,873 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+ul li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/**-------------------------------Header---------------------------**/
+
+.sec1 {
+    min-height: 760px;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.50)),
+        url(../Images/1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.head {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: -2%;
+    width: 100%;
+    opacity: 0.85;
+}
+
+.head h1 {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 350;
+    font-size: 400%;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+
+.mid {
+    position: absolute;
+    top: 55%;
+    text-align: center;
+}
+
+.mid h4 {
+    text-align: center;
+    color: #ebe5e5;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+
+.mid h2 {
+    text-align: center;
+    font-size: 2.0em;
+    color: #ebe5e5;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+.mid h3 a {
+    color: #FFFFFF;
+    font-size: 0.6em;
+    text-align: center;
+    font-weight: 400;
+    display: inherit;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+    width: 45%;
+    padding: 0.7em;
+    background: #000;
+    margin: 2em auto;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.mid:hover a{
+    background-color: #07cb79;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+
+
+/**----------------------------------Navigation Bar--------------------------------**/
+
+.navbar-inverse,
+.navbar {
+    background-color: #07cb79 !important;
+    position: relative !important;
+    border: none !important;
+    text-align: center !important; 
+}
+
+.navbar-nav a {
+    color: #fff !important;
+    text-align: center !important;
+    display: inline-block;
+    background-color: black !important;
+    margin: 10px;
+    padding: 10px 15px !important;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+.navbar-nav li a:hover {
+    background-color: #07cb79 !important;
+    color: #000 !important;
+}
+
+
+
+/**------------------------------About-------------------------**/
+
+.grid3 {
+    height: 650px;
+    width: 100%;
+    margin-top: 3em;
+    position: relative;
+
+}
+
+.head3 h2 {
+    text-align: center;
+    color: #000;
+    font-weight: 550;
+    font-size: 3.8em !important;
+    line-height: 1.1;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+
+.grid31,
+.grid32 {
+    padding: 3% 0%;
+    position: absolute !important;
+}
+
+.grid31 {
+    left: 0%;
+    width: 38%;
+    min-height: 94%;
+    display: block;
+}
+
+.about-image {
+    position: absolute;
+    background-image: url(../Images/2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 94%;
+    width: 100%;
+}
+
+.grid32 {
+    width: 58%;
+    left: 42%;
+}
+
+.grid321 {
+    min-height: 23%;
+    padding: 1%;
+    display: inline-block;
+}
+
+.grid321 i {
+    float: left;
+    padding: 4%;
+    width: 20%;
+}
+
+.grid321>i>span {
+    background-color: #07cb79;
+    width: 70px;
+    height: 70px;
+    padding: 18px 20px;
+    font-size: 2.4em;
+    color: #fff;
+}
+
+.grid321_content {
+    float: right;
+    width: 80%;
+}
+.grid321_content h3 {
+    font-weight: 550;
+    line-height: 1.1;
+    color: #333
+}
+
+.grid321_content p {
+    font-weight: 300;
+    color: #777;
+}
+
+
+/**---------------------------------MY Skills---------------------------**/
+
+.skills {
+    min-height: 610px;
+    background-color: #E0E0E0;
+}
+
+.head4 h2 {
+    text-align: center;
+    color: #000;
+    font-weight: 550;
+    font-size: 3.8em !important;
+    line-height: 1.1;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+
+.skills h3 {
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+    font-size: 1.65em !important;
+    line-height: 1.1;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    letter-spacing: 3.0px;
+}
+
+.grid4 {
+    position: relative;
+    margin-top: 2%;
+}
+
+.grid41 {
+    position: absolute;
+    width: 48%;
+    left: 0%
+}
+
+.grid42 {
+    position: absolute;
+    width: 48%;
+    left: 52%;
+}
+
+.content41 {
+    margin-left: 4%;
+}
+
+.content41 h5 {
+    color: #000;
+    font-weight: 150;
+    font-size: 1.1em !important;
+    line-height: 1.1;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1.0px;
+}
+
+.bar {
+    background-color: white;
+    height: 28px;
+    width: 100%;
+}
+
+.tech-skills {
+    font-weight: 550;
+    padding-top: 4px;
+    padding-right: 10px;
+    text-align: right;
+    color: #FFFFFF;
+    height: 100%;
+}
+
+.html {
+    width: 90%;
+    background-color: #000000;
+}
+
+.CSS3 {
+    width: 85%;
+    background-color: #000000;
+}
+
+.Javascript {
+    width: 35%;
+    background-color: #000000;
+}
+
+.bootstrap {
+    background-color: #000000;
+    width: 30%;
+}
+
+.Photoshop {
+    width: 70%;
+    background-color: #000000;
+}
+
+.grid42 ul {
+    margin-bottom: 10%;
+}
+
+.grid42 a {
+    width: 33.33% !important;
+    color: #000;
+    font-weight: 150;
+    font-size: 1.1em !important;
+    line-height: 1.1;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1.0px;
+}
+
+.tab-content p {
+    color: #333;
+    font-weight: 100;
+    font-size: 1em !important;
+    line-height: 2;
+    padding: 5px 0px;
+    text-transform: none;
+    letter-spacing: 0.5px;
+}
+
+.grid42-content p {
+    color: #333;
+    font-weight: 100;
+    font-size: 1.5em !important;
+    line-height: 2;
+    padding: 5px 0px;
+    text-transform: none;
+    letter-spacing: 0.5px;
+}
+
+.grid42-content h3 {
+    color: #000;
+    font-weight: 700;
+    font-size: 2.6em !important;
+    line-height: 1.1;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1.0px;
+}
+
+.grid42-content1 {
+    width: 32.9%;
+    text-align: center;
+    display: inline-block;
+}
+
+
+/**---------------------------------MY INTEREST---------------------------**/
+.interest {
+    background: url(../Images/3.jpg) no-repeat center 0px fixed;
+    background-size: cover;
+    height: 400px;
+}
+
+.head5 h2 {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 550;
+    font-size: 3.8em !important;
+    line-height: 1.1;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+
+.grid5 {
+    margin-top: 3em;
+}
+
+.grid5-content {
+    width: 23%;
+    margin: 0 0.5%;
+    display: inline-block;
+}
+
+.grid5-content-internal {
+    background-color: #000000;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    border: 5px solid #07cb79;
+}
+
+.icon-holder {
+    position: relative;
+    top: 63px;
+    margin-bottom: 1em;
+    transition: all 0.3s;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 3em;
+}
+
+
+
+/**-----------------------My Experience-----------------------**/
+
+.head6 h2 {
+    text-align: center;
+    color: #000000;
+    font-weight: 550;
+    font-size: 3.8em !important;
+    line-height: 1.1;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+
+.grid6 {
+    height: 620px;
+    width: 100%;
+}
+
+.grid6-content {
+    height: 32%;
+    margin-top: 2%;
+}
+
+.grid6-content-internal {
+    position: relative;
+}
+
+.grid61-left,
+.grid62-left,
+.grid63-left {
+    position: absolute;
+    width: 49%;
+}
+
+.grid61-right,
+.grid62-right,
+.grid63-right {
+    position: absolute;
+    width: 49%;
+    left: 51%;
+}
+
+.grid6 h4 {
+    color: #fff !important;
+    text-align: center !important;
+    display: inline-block;
+    margin: 11px 0;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.grid6 h5 {
+    color: #000000 !important;
+    text-align: center !important;
+    display: inline-block;
+    margin: 11px 0;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.grid6 p {
+    color: #000000;
+    text-align: left;
+    line-height: 30px;
+    font-size: 1em;
+}
+
+.date {
+    height: 40px;
+    width: 200px;
+    background-color: #07cb79;
+    text-align: center;
+}
+
+.disc {
+    margin-top: 3%;
+}
+
+.company {
+    height: 40px;
+    width: 200px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+
+
+/**-----------------------My Projects-----------------------**/
+
+.head7 h2 {
+    text-align: center;
+    color: #000000;
+    font-weight: 550;
+    font-size: 3.8em !important;
+    line-height: 1.1;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+
+.grid7 {
+    height: 840px;
+    width: 100%;
+    display: inline-block;
+}
+
+.grid71 {
+    width: 24.5%;
+    height: 98%;
+    margin-right: 0.3%;
+    display: inline-block;
+}
+
+.grid72 {
+    width: 49%;
+    height: 98%;
+    margin-right: 0.3%;
+    display: inline-block;
+}
+
+.grid73 {
+    width: 24.5%;
+    height: 98%;
+    display: inline-block;
+}
+
+.grid711 {
+    width: 100%;
+    height: 33%;
+}
+
+.grid712 {
+    width: 100%;
+    height: 65.5%;
+    margin-top: 3%;
+}
+
+.grid721 {
+    width: 100%;
+    height: 33%;
+}
+
+.grid722 {
+    width: 100%;
+    height: 31.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.grid7221 {
+    width: 49.25%;
+    height: 100%;
+    float: left;
+}
+
+.grid7222 {
+    width: 49.25%;
+    height: 100%;
+    float: right;
+}
+
+.grid723 {
+    width: 100%;
+    height: 33%;
+}
+
+.grid731 {
+    width: 100%;
+    height: 65.5%;
+    margin-bottom: 3%;
+}
+
+.grid732 {
+    width: 100%;
+    height: 33%;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.img711 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.30)),
+        url(../Images/711.jpg);
+}
+
+.img712 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.30)),
+        url(../Images/712.jpg);
+}
+
+.img721 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.30)),
+        url(../Images/721.jpg);
+}
+
+.img7221 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.30)),
+        url(../Images/7221.jpg);
+}
+
+.img7222 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.30)),
+        url(../Images/7222.jpg);
+}
+
+.img723 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.30)),
+        url(../Images/723.jpg);
+}
+
+.img731 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.30)),
+        url(../Images/731.jpg);
+}
+
+.img732 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.30)),
+        url(../Images/732.jpg);
+}
+
+
+
+/**-----------------------Contact Me-----------------------**/
+
+.head8 h2 {
+    text-align: center;
+    color: #000000;
+    font-weight: 550;
+    font-size: 3.8em !important;
+    line-height: 1.1;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+
+.grid8 {
+    height: 480px;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.grid81 {
+    width: 50%;
+    height: 100%;
+    background-image: url(../Images/contact2.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.grid82 {
+    width: 50%;
+    height: 100%;
+    background-color: #eeeeee;
+    float: right;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    font-size: 14px;
+    color: #000;
+    margin: 12px 0px;
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+}
+
+textarea {
+    height: 12em;
+}
+
+input[type="submit"] {
+    padding: 12px 0px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #07cb79;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 1em auto;
+    width: 26%;
+    transition: 0.5s all;
+}
+
+.About8 {
+    width: 75%;
+    height: 100%;
+    float: right;
+    margin: 2%;
+}
+
+.AboutMe {
+    width: 100%;
+    height: 24%;
+    text-align: left;
+}
+
+.AboutMe h4 {
+    color: #FFFFFF;
+    font-weight: 550;
+    font-size: 2.2em !important;
+    line-height: 1.1;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2.0px;
+}
+
+.AboutMe p {
+    font-size: 1em;
+    color: #ababab;
+    letter-spacing: 1px;
+    margin: 1em 0em 2em;
+    line-height: 1.9em;
+
+}
+
+.Address {
+    width: 100%;
+    height: 74%;
+    text-align: left;
+}
+
+.Address-list {
+    height: 32%;
+    width: 100%;
+    float: left;
+    margin-top: 1%
+}
+
+.Address-icon {
+    float: left;
+    width: 12.5%;
+    margin-right: 2%;
+}
+
+.Address-detail {
+    float: right;
+    width: 85%;
+}
+
+.Address span {
+    color: #fff;
+    font-size: 1.7em;
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+
+.Address h5 {
+    color: #e2e1e1;
+    letter-spacing: 1px;
+    margin: 12px 0px;
+    font-size: 1.5em;
+
+}
+
+.Address p {
+    font-size: 1em;
+    color: #ababab;
+    margin: 0;
+    line-height: 1em;
+    letter-spacing: 1px;
+
+}
+
+footer {
+    background-color: #000000;
+}
+
+.f_s2 {
+    padding: 0.5rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.f_s2 i {
+    color: #FFFFFF;
+}
+
+.f_s2 span {
+    color: #FFFFFF;
+    font-weight: normal;
+    text-transform: capitalize;
+    align-self: center;
+}
+
+
+
+/**-----------------------For Screen 768px-----------------------**/
+
+@media (max-width:768px){
+    
+}
