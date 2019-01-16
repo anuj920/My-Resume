@@ -121,7 +121,8 @@ img {
     -moz-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
-.mid:hover a{
+
+.mid:hover a {
     background-color: #07cb79;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -133,24 +134,25 @@ img {
 
 
 /**----------------------------------Navigation Bar--------------------------------**/
-
+.collapse ul li{
+    text-align: center !important;
+}
 .navbar-inverse,
-.navbar {
+.navbar{
     background-color: #07cb79 !important;
-    position: relative !important;
     border: none !important;
-    text-align: center !important; 
+    text-align: center !important;
 }
 
 .navbar-nav a {
     color: #fff !important;
     text-align: center !important;
-    display: inline-block;
     background-color: black !important;
     margin: 10px;
     padding: 10px 15px !important;
-    letter-spacing: 5px;
-    font-weight: 400;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 1.2em;
 }
 
 .navbar-nav li a:hover {
@@ -191,7 +193,6 @@ img {
     left: 0%;
     width: 38%;
     min-height: 94%;
-    display: block;
 }
 
 .about-image {
@@ -233,6 +234,7 @@ img {
     float: right;
     width: 80%;
 }
+
 .grid321_content h3 {
     font-weight: 550;
     line-height: 1.1;
@@ -248,7 +250,6 @@ img {
 /**---------------------------------MY Skills---------------------------**/
 
 .skills {
-    min-height: 610px;
     background-color: #E0E0E0;
 }
 
@@ -275,6 +276,7 @@ img {
 }
 
 .grid4 {
+    height: 520px;
     position: relative;
     margin-top: 2%;
 }
@@ -304,29 +306,32 @@ img {
     text-transform: uppercase;
     letter-spacing: 1.0px;
 }
+.tab{
+    padding: 6px 0px;
 
+}
 .bar {
     background-color: white;
-    height: 28px;
+    height: 17px;
     width: 100%;
 }
 
 .tech-skills {
     font-weight: 550;
-    padding-top: 4px;
     padding-right: 10px;
     text-align: right;
     color: #FFFFFF;
     height: 100%;
+    font-size: 1em;
 }
 
 .html {
-    width: 90%;
+    width: 85%;
     background-color: #000000;
 }
 
 .CSS3 {
-    width: 85%;
+    width: 75%;
     background-color: #000000;
 }
 
@@ -391,7 +396,7 @@ img {
 }
 
 .grid42-content1 {
-    width: 32.9%;
+    width: 32.8%;
     text-align: center;
     display: inline-block;
 }
@@ -718,47 +723,6 @@ img {
     float: left;
 }
 
-.grid82 {
-    width: 50%;
-    height: 100%;
-    background-color: #eeeeee;
-    float: right;
-    text-align: center;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 80%;
-    padding: 10px;
-    outline: none;
-    font-size: 14px;
-    color: #000;
-    margin: 12px 0px;
-    border: none;
-    border-bottom: 1px solid #000;
-    background: transparent;
-}
-
-textarea {
-    height: 12em;
-}
-
-input[type="submit"] {
-    padding: 12px 0px;
-    font-size: 1.1em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    background: #07cb79;
-    color: white;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    margin: 1em auto;
-    width: 26%;
-    transition: 0.5s all;
-}
-
 .About8 {
     width: 75%;
     height: 100%;
@@ -841,6 +805,52 @@ input[type="submit"] {
 
 }
 
+.grid82 {
+    width: 50%;
+    height: 100%;
+    background-color: #eeeeee;
+    float: right;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    font-size: 14px;
+    color: #000;
+    margin: 12px 0px;
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+}
+
+textarea {
+    height: 12em;
+}
+
+input[type="submit"] {
+    padding: 12px 0px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #07cb79;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 1em auto;
+    width: 26%;
+    transition: 0.5s all;
+}
+
+
+
+/**-----------------------Footer-----------------------**/
+
+
 footer {
     background-color: #000000;
 }
@@ -868,6 +878,130 @@ footer {
 
 /**-----------------------For Screen 768px-----------------------**/
 
-@media (max-width:768px){
+@media(max-width:768px) {
+    .grid7{
+        height: 600px;
+    }
+    .grid8 {
+        height: 880px;
+        position: relative;
+        width: 100%;
+    }
+
+    .grid81 {
+        position: absolute;
+        height: 50%;
+        width: 100%;
+        top: 0%
+    }
+
+    .grid81 p{
+        font-size: 1em;
+    }
+
+    .grid81 h4 {
+        font-size: 1.4em;
+    }
+
+    .grid81 h5 {
+        font-size: 1.3em;
+    }
+
+    .grid span {
+        font-size: 0.9em;
+    }
+
+    .grid82 {
+        position: absolute;
+        height: 50% !important;
+        width: 100% !important;
+        top: 50%;
+    }
+    .grid82 textarea{
+        height: 10em;
+    }
+}
+
+/**-----------------------For Screen 992px-----------------------**/
+
+@media(max-width:992px){
+    .grid3{
+        height: 1180px !important;
+        width: 100%;
+    }
+    .about-image{
+        height: 50%;
+        width: 100%;
+    }
+    .grid31{
+        padding: 0px;
+        height: 50% !important;
+        width: 50%;
+        top: 0%;
+    }
+    .grid32{
+        padding: 0%;
+        height: 50% !important;
+        top: 50%;
+        width: 100% !important;
+        left: 0%;
+    }
+    .grid4 {
+        height: 950px;
+        position: relative;
+        margin-top: 2%;
+    }
+    .grid41{
+        width: 100% !important;
+        position: absolute;
+        height: 50% !important;
+        top: 0%;
+    }
+    .grid42{
+        width: 100% !important;
+        position: absolute;
+        height: 50% !important;
+        top: 50%;
+        left: 0% !important;
+    }
+    .grid7{
+        height: 670px;
+    }
+}
+
+
+/**-----------------------For Screen 1080px-----------------------**/
+
+@media(max-width: 1080px) {
+    .grid7{
+        height: 730px;
+    }
+    .About8 {
+        width: 95%;
+    }
+    .grid81 p{
+        font-size: 1em;
+    }
+
+    .grid81 h4 {
+        font-size: 1.4em;
+    }
+
+    .grid81 h5 {
+        font-size: 1.3em;
+    }
+
+    .grid span {
+        font-size: 0.9em;
+    }
+    .Address-icon {
+        float: left;
+        width: 12.5%;
+        margin-right: 2%;
+    }
     
+    .Address-detail {
+        float: right;
+        width: 80%;
+    }
 }
