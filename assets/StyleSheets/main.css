@@ -876,11 +876,65 @@ footer {
 
 
 
+/**-----------------------For Screen 448px-----------------------**/
+
+
+@media only screen and (max-width: 448px){
+    .head h1{
+        font-size: 3em;
+        letter-spacing: 1.5px;
+    }
+    .mid h2{
+        font-size: 1.5em;
+        letter-spacing: 3px;
+    }
+    .mid h4{
+        font-size: 1em;
+    }
+    .mid h3 a{
+        font-size: .5em;
+    }
+    .head6 h2{
+        letter-spacing: 1px;
+    }
+    .grid321_content{
+        width: 77%;
+    }
+    .tab-content p{
+        font-size: .95em !important;
+        line-height: 1.95;
+    }
+    .grid42-content1{
+        width: 32.7%;
+    }
+    .grid42-content p{
+        font-size: 1.4em !important;
+    }
+    .grid7{
+        height: 500px !important;
+    }
+    .grid72{
+        width: 48% !important;
+    }
+    .grid6 p{
+        font-size: .9em !important;
+        line-height: 23px !important;
+    }
+}
+
+
 /**-----------------------For Screen 768px-----------------------**/
 
-@media(max-width:768px) {
+@media only screen and (max-width: 768px) {
+    .grid6 p{
+        font-size: .94em;
+        line-height: 27px;
+    }
     .grid7{
         height: 600px;
+    }
+    .grid72{
+        width: 48.6%;
     }
     .grid8 {
         height: 880px;
@@ -924,9 +978,9 @@ footer {
 
 /**-----------------------For Screen 992px-----------------------**/
 
-@media(max-width:992px){
+@media only screen and (max-width: 992px){
     .grid3{
-        height: 1180px !important;
+        height: 1180px;
         width: 100%;
     }
     .about-image{
@@ -972,7 +1026,7 @@ footer {
 
 /**-----------------------For Screen 1080px-----------------------**/
 
-@media(max-width: 1080px) {
+@media only screen and (max-width: 1080px) {
     .grid7{
         height: 730px;
     }
