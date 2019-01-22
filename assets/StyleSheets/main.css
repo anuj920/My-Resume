@@ -876,56 +876,102 @@ footer {
 
 
 
-/**-----------------------For Screen 448px-----------------------**/
 
+/**-----------------------For Screen 1080px-----------------------**/
 
-@media only screen and (max-width: 448px){
-    .head h1{
-        font-size: 3em;
-        letter-spacing: 1.5px;
+@media only screen and (max-width: 1080px) {
+    .grid7{
+        height: 730px;
     }
-    .mid h2{
-        font-size: 1.5em;
-        letter-spacing: 3px;
+    .About8 {
+        width: 95%;
     }
-    .mid h4{
+    .grid81 p{
         font-size: 1em;
     }
-    .mid h3 a{
-        font-size: .5em;
+
+    .grid81 h4 {
+        font-size: 1.4em;
     }
-    .head6 h2{
-        letter-spacing: 1px;
+
+    .grid81 h5 {
+        font-size: 1.3em;
     }
-    .grid321_content{
-        width: 77%;
+
+    .grid span {
+        font-size: 0.9em;
     }
-    .tab-content p{
-        font-size: .95em !important;
-        line-height: 1.95;
+    .Address-icon {
+        float: left;
+        width: 12.5%;
+        margin-right: 2%;
     }
-    .grid42-content1{
-        width: 32.7%;
-    }
-    .grid42-content p{
-        font-size: 1.4em !important;
-    }
-    .grid7{
-        height: 500px !important;
-    }
-    .grid72{
-        width: 48% !important;
-    }
-    .grid6 p{
-        font-size: .9em !important;
-        line-height: 23px !important;
+    
+    .Address-detail {
+        float: right;
+        width: 80%;
     }
 }
 
+/**-----------------------For Screen 992px-----------------------**/
+
+@media only screen and (max-width: 992px){
+    .grid3{
+        height: 1180px;
+        width: 100%;
+    }
+    .about-image{
+        height: 50%;
+        width: 100%;
+    }
+    .grid31{
+        padding: 0px;
+        height: 50%;
+        width: 50%;
+        top: 0%;
+    }
+    .grid32{
+        padding: 0%;
+        height: 50%;
+        top: 50%;
+        width: 100%;
+        left: 0%;
+    }
+    .grid4 {
+        height: 950px;
+        position: relative;
+        margin-top: 2%;
+    }
+    .grid41{
+        width: 100%;
+        position: absolute;
+        height: 50%;
+        top: 0%;
+    }
+    .grid42{
+        width: 100%;
+        position: absolute;
+        height: 50%;
+        top: 50%;
+        left: 0%;
+    }
+    .grid7{
+        height: 670px;
+    }
+}
 
 /**-----------------------For Screen 768px-----------------------**/
 
 @media only screen and (max-width: 768px) {
+    .head h1{
+        font-size: 3.8em;
+        letter-spacing: 3px;
+    }
+    .mid h2{
+        font-size: 1.8em;
+        letter-spacing: 2.5px;
+    }
+
     .grid6 p{
         font-size: .94em;
         line-height: 27px;
@@ -967,8 +1013,8 @@ footer {
 
     .grid82 {
         position: absolute;
-        height: 50% !important;
-        width: 100% !important;
+        height: 50%;
+        width: 100%;
         top: 50%;
     }
     .grid82 textarea{
@@ -976,86 +1022,101 @@ footer {
     }
 }
 
-/**-----------------------For Screen 992px-----------------------**/
-
-@media only screen and (max-width: 992px){
-    .grid3{
-        height: 1180px;
-        width: 100%;
-    }
-    .about-image{
-        height: 50%;
-        width: 100%;
-    }
-    .grid31{
-        padding: 0px;
-        height: 50% !important;
-        width: 50%;
-        top: 0%;
-    }
-    .grid32{
-        padding: 0%;
-        height: 50% !important;
-        top: 50%;
-        width: 100% !important;
-        left: 0%;
-    }
-    .grid4 {
-        height: 950px;
-        position: relative;
-        margin-top: 2%;
-    }
-    .grid41{
-        width: 100% !important;
-        position: absolute;
-        height: 50% !important;
-        top: 0%;
-    }
-    .grid42{
-        width: 100% !important;
-        position: absolute;
-        height: 50% !important;
-        top: 50%;
-        left: 0% !important;
-    }
-    .grid7{
-        height: 670px;
-    }
-}
 
 
-/**-----------------------For Screen 1080px-----------------------**/
+/**-----------------------For Screen 640px-----------------------**/
 
-@media only screen and (max-width: 1080px) {
-    .grid7{
-        height: 730px;
+
+
+@media only screen and (max-width: 640px){
+    .head h1{
+        font-size: 3.3em;
+        letter-spacing: 1.8px;
     }
-    .About8 {
-        width: 95%;
+    .mid h2{
+        font-size: 1.5em;
+        letter-spacing: 2.5px;
     }
-    .grid81 p{
+    .mid h4{
         font-size: 1em;
     }
-
-    .grid81 h4 {
-        font-size: 1.4em;
+    .mid h3 a{
+        font-size: .5em;
     }
-
-    .grid81 h5 {
-        font-size: 1.3em;
-    }
-
-    .grid span {
-        font-size: 0.9em;
-    }
-    .Address-icon {
-        float: left;
-        width: 12.5%;
-        margin-right: 2%;
-    }
-    
-    .Address-detail {
-        float: right;
-        width: 80%;
+    .grid6 p{
+        font-size: .9em;
+        line-height: 26px;
     }
 }
+
+
+
+/**-----------------------For Screen 480px-----------------------**/
+
+
+@media only screen and (max-width: 480px){
+    .head h1{
+        font-size: 2.5em;
+        letter-spacing: 1.3px;
+    }
+    .mid h2{
+        font-size: 1.1em;
+        letter-spacing: 1.8px;
+    }
+    .mid h4{
+        font-size: .85em;
+    }
+    .mid h3 a{
+        font-size: .38em;
+    }
+    .grid321_content {
+        width: 78%;
+    }
+    
+    .grid321_content h3 {
+        line-height: 1;
+        font-size: 1.6em;
+        margin: 9.5px 0;
+       
+    }
+    
+    .grid321_content p {
+        font-size: .95em;
+        line-height: 1.3;
+    }
+    .head6 h2{
+        letter-spacing: 1px;
+    }
+    .grid321_content{
+        width: 74%;
+    }
+    .tab-content p{
+        font-size: .95em;
+        line-height: 1.85;
+    }
+    .grid42-content1{
+        width: 32.6%;
+    }
+    .grid42-content p{
+        font-size: 1.4em !important;
+        line-height: 1.2;
+    }
+    .grid42-content h3{
+        font-size: 2.2em !important;
+        padding: 3px 0;
+        line-height: 1;
+    }
+    .grid7{
+        height: 450px;
+    }
+    .grid72{
+        width: 48%;
+    }
+    .grid6 p{
+        font-size: .84em;
+        line-height: 21px;
+    }
+}
+
+
+
