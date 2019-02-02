@@ -1192,7 +1192,9 @@ footer {
         font-size: .84em;
         line-height: 19px;
     }
-
+    .date ,.company{
+        width: 170px;
+    }
     .grid7 {
         min-height: 2300px;
         width: 100%;
@@ -1238,5 +1240,8 @@ footer {
     }
     .grid6{
         height: 700px;
+    }
+    .date ,.company{
+        width: 150px;
     }
 }
