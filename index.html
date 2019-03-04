@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <script>
         $(document).ready(function(){
-          $("a").on('click', function(event) {
+          $(".scroll").on('click', function(event) {
             if (this.hash !== "") {
               event.preventDefault();
               var hash = this.hash;
@@ -36,28 +36,26 @@
         </script>
 </head>
 
-<body>
 
 
-
-    <!------------------------------Header---------------------------->
-    <header>
-        <div class="sec1" id="sec1">
-            <div class="head">
-                <h1 class="heading">PERSONAL RESUME</h1>
-            </div>
-            <div class="container">
-                <div class="mid center">
-                    <h4>Lorem ipsum</h4>
-                    <h2>HI,I AM ANUJ SINGH</h2>
-                    <h3><a class="scroll" href="#about">About Me</a></h3>
-                </div>
+<!------------------------------Header---------------------------->
+<header>
+    <div class="sec1" id="sec1">
+        <div class="head">
+            <h1 class="heading">PERSONAL RESUME</h1>
+        </div>
+        <div class="container">
+            <div class="mid center">
+                <h4>Lorem ipsum</h4>
+                <h2>HI,I AM ANUJ SINGH</h2>
+                <h3><a class="scroll" href="#about">About Me</a></h3>
             </div>
         </div>
-    </header>
+    </div>
+</header>
 
 
-
+<body>
     <!-------------------------------------------Navigation Bar-------------------------------->
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
@@ -70,12 +68,12 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li><a href="#sec1">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#MyExperience">Experience</a></li>
-                    <li><a href="#MyProject">Projects</a></li>
-                    <li><a href="#ContactMe">Contact</a></li>
+                    <li><a href="#sec1" class="scroll">Home</a></li>
+                    <li><a href="#about" class="scroll">About</a></li>
+                    <li><a href="#skills" class="scroll">Skills</a></li>
+                    <li><a href="#MyExperience" class="scroll">Experience</a></li>
+                    <li><a href="#MyProject" class="scroll">Projects</a></li>
+                    <li><a href="#ContactMe" class="scroll">Contact</a></li>
                 </ul>
             </div>
         </div>
